@@ -1,27 +1,27 @@
-<!--CSS part of Code-->
 .boxed {
   border: 17px solid;
   border-radius: 20px;
   background-color: grey;
-  margin: 50px;
+  margin: 5%;
   text-align: center;
 }
 #interesting-facts {
   text-align: center;
-  margin-left: 150px;
-  margin-right: 150px;
+  margin-left: 10%;
+  margin-right: 10%;
 }
 p {
   text-align: center;
-  margin-left: 150px;
-  margin-right: 150px;
-  margin-top: 50px;
+  margin-left: 10%;
+  margin-right: 10%;
+  margin-top: 5%;
 }
 #formore{
   text-align:right;
-    font-size: 15px;
-  margin-top: 30px;
+    font-size: 100%;
+  margin-top: 7%;
 }
+
 
 <!--HTML part of Code-->
 <body style="background-color:white";>
@@ -39,7 +39,7 @@ p {
     </h2>
   </font>
    <!--Below is a photo of Taft-->
-    <img src="http://lcweb2.loc.gov/diglib/media/loc.natlib.ihas.200155630/0001.tif/3304" alt"He is alright" width=700 height=1000
+    <img src="http://lcweb2.loc.gov/diglib/media/loc.natlib.ihas.200155630/0001.tif/3304" alt"He is alright" width=70% height=70%
          </img>
     <p>W. J. Applegate, telling us that Taft is alright.</p>
 </div>
@@ -65,4 +65,3 @@ p {
   <h3 id="formore">To learn more in depth fun facts about the 27th president, click <a href="http://mentalfloss.com/article/58914/15-wonderful-william-howard-taft-facts" target="_blank"> here </a></h3>
   </div>
 </body>
-
