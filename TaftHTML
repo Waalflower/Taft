@@ -1,0 +1,68 @@
+<!--CSS part of Code-->
+.boxed {
+  border: 17px solid;
+  border-radius: 20px;
+  background-color: grey;
+  margin: 50px;
+  text-align: center;
+}
+#interesting-facts {
+  text-align: center;
+  margin-left: 150px;
+  margin-right: 150px;
+}
+p {
+  text-align: center;
+  margin-left: 150px;
+  margin-right: 150px;
+  margin-top: 50px;
+}
+#formore{
+  text-align:right;
+    font-size: 15px;
+  margin-top: 30px;
+}
+
+<!--HTML part of Code-->
+<body style="background-color:white";>
+
+<div class="container-fluid">
+  
+  <!--Header is below-->
+  <div class="boxed">
+  <font face="WildWest" size="+4">
+    <h1>
+    William Howard Taft
+    </h1>
+    <h2>
+      Interesting facts about the 27th president.
+    </h2>
+  </font>
+   <!--Below is a photo of Taft-->
+    <img src="http://lcweb2.loc.gov/diglib/media/loc.natlib.ihas.200155630/0001.tif/3304" alt"He is alright" width=700 height=1000
+         </img>
+    <p>W. J. Applegate, telling us that Taft is alright.</p>
+</div>
+  <!--Interesting facts about Taft-->
+  <ol id="interesting-facts">
+    <li>He Was the Last President to Rock Facial Hair While in Office.</li>
+    <li>Taft’s Family Maintained a Long-Standing Political Dynasty.</li>
+    <li>A Dairy Expo Once Spent Two Days Fretting Over his Missing Milk Cow.</li>
+    <li>Taft Valued Being on the Supreme Court Over his Presidency.</li>
+    <li>He Debuted the “Presidential First Pitch.”</li>
+    <li>Taft’s Wife Crashed the 1912 DNC to Shield Him from Ridicule.</li>
+    <li>His Nicknames Included “Big Bill” and “Big Lub.”</li>
+    <li>Taft Swore in Two Other Presidents. These being Calvin Coolidge and Herbert Hoover.</li>
+    <li>He Briefly Worked as a Part-Time Reporter.</li>
+    <li>He Lost 70 Pounds After Leaving the White House.</li>
+       </ol>
+  <!--Quote from Taft-->
+  <font size="+3">
+    <p>"The day is not far distant when three Stars and Stripes at three equidistant points will mark our territory: one at the North Pole, another at the Panama Canal, and the third at the South Pole. The whole hemisphere will be ours in fact as, by virtue of our superiority of race, it already is ours morally." Quote from William Howard Taft.</p>
+    
+  </font>
+  <!--Links to Taft references-->
+  <h3 id="formore">To learn more in depth fun facts about the 27th president, click <a href="http://mentalfloss.com/article/58914/15-wonderful-william-howard-taft-facts" target="_blank"> here </a></h3>
+  </div>
+</body>
+
